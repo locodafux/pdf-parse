@@ -20,4 +20,4 @@ app.post("/extract-text", (req, res) => {
   });
 });
 
-app.listen(PORT);
+app.listen(PORT, () => console.log(`Live at http://localhost:${PORT}`));
